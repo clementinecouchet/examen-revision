@@ -4,11 +4,21 @@
 
 .row > .col,
 .row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+  padding: 12px 13px;
+  border: 1px solid #c8c1d5;
+  background: #e5e1ec;
 }
 .container {
   margin: 50px;
+}
+
+.wrapper {
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
 }
